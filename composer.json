@@ -1,0 +1,24 @@
+{
+    "name": "rivera/bienesraices_mvc",
+    "description": "Creando un proyecto con MVC",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Rivera\\BienesraicesInicio\\": "src/",
+            "Model\\" : "./models",
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cristian Rivera",
+            "email": "javi-cali1995@hotmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.6"
+    }
+   
+}
